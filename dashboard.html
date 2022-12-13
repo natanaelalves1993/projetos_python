@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="estilo.css">
+
+    <title>Dashboard Recebimento</title>
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="/imagens/logo.png">
+                    <h2 class="text-muted">ega<span class="danger">tor</span></h2>
+                </div> <!-- /logo -->
+                <div class="close" id="close-btn">
+                    <span class="material-symbols-outlined">close</span>
+                </div> <!-- /close -->
+            </div> <!-- /top -->
+
+            <div class="sidebar">
+
+                <a href="#" class="active">
+                <span class="material-symbols-outlined">grid_view</span>
+                <h3>Dashboard</h3>
+                </a>
+                
+                <a href="#">
+                <span class="material-symbols-outlined">person</span>
+                <h3>Costumers</h3>
+                </a>
+
+                <a href="#">
+                <span class="material-symbols-outlined">receipt_long</span>
+                <h3>Ordens</h3>
+                </a>
+
+                <a href="#">
+                <span class="material-symbols-outlined">insights</span>
+                <h3>analytics</h3>
+                </a>
+
+                <a href="#">
+                <span class="material-symbols-outlined">mail_outline</span>
+                <h3>massages</h3>
+                <span class="message-count">26</span>
+                </a>
+
+                <a href="#">
+                <span class="material-symbols-outlined">inventory</span>
+                <h3>Produtos</h3>
+                </a>
+                
+                <a href="#">
+                <span class="material-symbols-outlined">report_gmailerrorred</span>
+                <h3>report</h3>
+                </a>
+
+                <a href="#">
+                <span class="material-symbols-outlined">settings</span>
+                <h3>settings</h3>
+                </a>
+                
+                <a href="#">
+                <span class="material-symbols-outlined">add</span>
+                <h3>Add Product</h3>
+                </a>
+
+                <a href="#">
+                <span class="material-symbols-outlined">logout</span>
+                <h3>Add Product</h3>
+                </a>
+            </div>
+        </aside>
+    
+
+    <!--==================================================MAIN==============================================-->
+
+    <main>
+        <h1>Dashboard</h1>
+
+        <div class="date">
+            <input type="date">
+        </div> <!-- /date -->
+
+        <div class="insights">
+            <div class="sales">
+                <span class="material-symbols-outlined">analytics</span>
+                <div class="middle">
+                    <div class="left">
+                        <h3>Total Sales</h3>
+                        <h1>$24,024</h1>
+                    </div> <!-- /lef -->
+                    <div class="progress">
+                        <svg>
+                            <circle cx="38" cy="38" r="36"></circle>
+                        </svg>
+                        <div class="number">
+                            <p>81%</p>
+                        </div>
+                    </div> <!-- /progress -->
+                </div> <!-- /middle -->
+                <small class="text-muted">Last 24 Hours</small>
+            </div> <!-- /sales -->
+
+            <!--============================================END OF SALES=======================================-->
+
+            <div class="expenses">
+                <span class="material-symbols-outlined">monitoring</span>
+                <div class="middle">
+                    <div class="left">
+                        <h3>Total Expenses</h3>
+                        <h1>$14,160</h1>
+                    </div> <!-- /lef -->
+                    <div class="progress">
+                        <svg>
+                            <circle cx="38" cy="38" r="36"></circle>
+                        </svg>
+                        <div class="number">
+                            <p>81%</p>
+                        </div>
+                    </div> <!-- /progress -->
+                </div> <!-- /middle -->
+                <small class="text-muted">Last 24 Hours</small>
+            </div> <!-- /sales -->
+
+            <!--============================================END OF MONITORING=======================================-->
+
+            <div class="income">
+                <span class="material-symbols-outlined">stacked_line_chart</span>
+                <div class="middle">
+                    <div class="left">
+                        <h3>Total Income</h3>
+                        <h1>$24,024</h1>
+                    </div> <!-- /lef -->
+                    <div class="progress">
+                        <svg>
+                            <circle cx="38" cy="38" r="36"></circle>
+                        </svg>
+                        <div class="number">
+                            <p>81%</p>
+                        </div>
+                    </div> <!-- /progress -->
+                </div> <!-- /middle -->
+                <small class="text-muted">Last 24 Hours</small>
+            </div> <!-- /sales -->
+
+    <!----------------------------------------------------END OF INCOME--------------------------------------------->
+
+            
+        </div> <!-- /insights -->
+        <div><h1 class="dados">Dados</h1></div>
+        <div class="planilha">
+                
+        </div>
+    </main>
+    <!------------------------------------------------------END OF MAIN--------------------------------------------->
+        <div class="right">
+            <div class="top">
+
+                <button id="menu-btn">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+
+                <div class="theme-toggle">
+                    <span class="material-symbols-outlined active">light_mode</span>
+                    <span class="material-symbols-outlined">dark_mode</span>
+                </div> <!-- /theme-toggle -->
+                
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey, <b>Daniel</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="/imagens/profile-1.jpg">
+                    </div> <!-- /.profile-photo -->
+                </div> <!-- /profile -->
+
+            </div> <!-- /top -->
+            <div class="recent-updates">
+                <h2>Recent Updates</h2>
+                <div class="updates">
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="/imagens/profile-2.jpg">
+                        </div> <!-- /profile-photo -->
+
+                        <div class="message">
+                            <p><b>Myke Tison</b> received a message from the Night lion of GPS.</p>
+                            <small class="text-muted">2 minutes ago</small>
+                        </div> <!-- /message -->
+                    </div> <!-- update -->
+
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="/imagens/profile-3.jpg">
+                        </div> <!-- /profile-photo -->
+
+                        <div class="message">
+                            <p><b>Myke Tison</b> received a message from the Night lion of GPS.</p>
+                            <small class="text-muted">2 minutes ago</small>
+                        </div> <!-- /message -->
+                    </div> <!-- update -->
+
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="/imagens/profile-4.jpg">
+                        </div> <!-- /profile-photo -->
+
+                        <div class="message">
+                            <p><b>Myke Tison</b> received a message from the Night lion of GPS.</p>
+                            <small class="text-muted">2 minutes ago</small>
+                        </div> <!-- /message -->
+                    </div> <!-- update -->
+
+                </div> <!-- updates -->
+
+                
+            </div> <!--/recent-update -->
+        </div> <!-- /right -->
+</div> <!-- /container -->
+
+<script src="app.js"></script>
+</body>
+</html>
